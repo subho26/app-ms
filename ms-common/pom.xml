@@ -9,7 +9,7 @@
   <artifactId>ms-common</artifactId>
   <name>Microservice Common</name>
   <properties>
-    <resteasy.version>3.1.4.Final</resteasy.version>
+    <resteasy.version>4.0.0.Beta1</resteasy.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>javax.ws.rs</groupId>
       <artifactId>javax.ws.rs-api</artifactId>
-      <version>2.0.1</version>
+      <version>2.1</version>
     </dependency>
     <dependency>
       <groupId>org.bitbucket.b_c</groupId>
@@ -152,7 +152,7 @@
             <inherited>false</inherited>
             <configuration>
               <rules>
-                <dependencyConvergence />
+                <dependencyConvergence/>
               </rules>
             </configuration>
           </execution>
